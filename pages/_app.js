@@ -1,5 +1,17 @@
 import "@/styles/globals.css";
+import Navbar from "../components/Navbar";
+import Slider from "../components/Slider";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App() {
+ 
+  return( 
+   
+   <>
+   <Navbar />
+   <Slider />
+  
+   </>
+   
+  
+)
 }
