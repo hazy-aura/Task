@@ -14,29 +14,38 @@ function Slider() {
   return (
     <>
       <div className="carousel rounded-box flex items-center justify-between ">
-        <div className="carousel-item">
-          <Image src={frame1} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame2} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame3} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame4} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame5} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame6} />
-        </div>
-        <div className="carousel-item">
-          <Image src={frame7} />
-        </div>
-        <div className="carousel-item">
+        <div className="carousel-item flex-col">
           <Image src={frame8} />
+          <p className="text-xs text-center mt-5">All Bags</p>
+        </div>
+        <div className="carousel-item flex-col">
+          <Image src={frame7} />
+          <p className="text-xs text-center mt-5">Vanity Pouch</p>
+        </div>
+        <div className="carousel-item flex-col">
+          <Image src={frame4} />
+          <p className="text-xs text-center mt-5">Tote Bag</p>
+        </div>
+
+        <div className="carousel-item flex-col">
+          <Image src={frame1} />
+          <p className="text-xs text-center mt-5">Duffle Bag</p>
+        </div>
+        <div className="carousel-item flex-col">
+          <Image src={frame5} />
+          <p className="text-xs text-center mt-5">Laptop Sleeve</p>
+        </div>
+        <div className="carousel-item flex-col">
+          <Image src={frame6} />
+          <p className="text-xs text-center mt-5">Messenger Bags</p>
+        </div>
+        <div className="carousel-item  flex-col">
+          <Image src={frame3} />
+          <p className="text-xs text-center mt-5">Sling Bags</p>
+        </div>
+        <div className="carousel-item flex-col">
+          <Image src={frame2} />
+          <p className="text-xs text-center mt-5">HandBags</p>
         </div>
       </div>
     </>
