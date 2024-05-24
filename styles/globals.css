@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,7 +20,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: 'Encode Sans', sans-serif;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,

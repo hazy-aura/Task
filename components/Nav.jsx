@@ -5,12 +5,13 @@ import { BiShoppingBag } from "react-icons/bi";
 
 
 function Nav() {
+    const sz = 30;
     return(
         <div className="flex items-center justify-between space-x-6">
-        <Link href={"/"}> <IoIosSearch /></Link>
-        <Link href={"/"}> <MdOutlinePersonOutline /></Link>
-        <Link href={"/"}> <MdBookmarkBorder /></Link>
-        <Link href={"/"}><BiShoppingBag /></Link>
+        <Link href={"/"}> <IoIosSearch size={sz} /></Link>
+        <Link href={"/"}> <MdOutlinePersonOutline size={sz} /></Link>
+        <Link href={"/"}> <MdBookmarkBorder size={sz} /></Link>
+        <Link href={"/"}><BiShoppingBag size={sz} /></Link>
         </div>
     )
     
