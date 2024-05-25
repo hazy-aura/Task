@@ -7,7 +7,9 @@ import { BiShoppingBag } from "react-icons/bi";
 function Nav() {
     const sz = 30;
     return(
-        <div className="flex items-center justify-between space-x-6">
+        <div className="flex items-center justify-between space-x-6 
+        
+        ">
         <Link href={"/"}> <IoIosSearch size={sz} /></Link>
         <Link href={"/"}> <MdOutlinePersonOutline size={sz} /></Link>
         <Link href={"/"}> <MdBookmarkBorder size={sz} /></Link>

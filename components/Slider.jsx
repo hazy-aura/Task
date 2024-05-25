@@ -13,37 +13,37 @@ import frame8 from "../public/Frame8.png";
 function Slider() {
   return (
     <>
-      <div className="carousel rounded-box flex items-center justify-between ">
-        <div className="carousel-item flex-col">
+      <div className="w-full overflow-auto carousel rounded-box  ">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame8} />
           <p className="text-xs text-center mt-5">All Bags</p>
         </div>
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame7} />
           <p className="text-xs text-center mt-5">Vanity Pouch</p>
         </div>
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame4} />
           <p className="text-xs text-center mt-5">Tote Bag</p>
         </div>
 
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame1} />
           <p className="text-xs text-center mt-5">Duffle Bag</p>
         </div>
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame5} />
           <p className="text-xs text-center mt-5">Laptop Sleeve</p>
         </div>
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame6} />
           <p className="text-xs text-center mt-5">Messenger Bags</p>
         </div>
-        <div className="carousel-item  flex-col">
+        <div className="carousel-item  flex flex-col px-12">
           <Image src={frame3} />
           <p className="text-xs text-center mt-5">Sling Bags</p>
         </div>
-        <div className="carousel-item flex-col">
+        <div className="carousel-item flex flex-col px-12">
           <Image src={frame2} />
           <p className="text-xs text-center mt-5">HandBags</p>
         </div>

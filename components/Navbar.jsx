@@ -8,7 +8,9 @@ function Navbar() {
        <>
         
        
-       <header className="bg-black sticky top-0 z-[20] mx-auto flex w-full items-center justify-between border-gray-500 p-8">
+       <header className="bg-black sticky top-0 z-[20] overflow-auto mx-auto md:flex w-full items-center justify-between border-gray-500 p-8
+       sm:block
+       ">
        <Logo />
        <MiddleNavLinks  />
        

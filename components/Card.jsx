@@ -51,7 +51,9 @@ function Card() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
+      <div className=" overflow-auto grid xs:grid-cols-1 md:grid-cols-4 gap-2
+      sm:grid-cols-2 
+      ">
         {cards.map((card) => (
           <div
             key={card.id}
