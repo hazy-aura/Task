@@ -1,8 +1,7 @@
-import styles from '../styles/Logo.module.css';
 function Logo() {
     
     return(
-        <div className={styles.logo} >
+        <div className="font-commeFont text-lg tracking-[1.181rem]	" >
            TANN TRIM 
         </div>
 

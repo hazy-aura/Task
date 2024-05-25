@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         customGray: '#141414',
       },
+      fontFamily: {
+        'commeFont': ['Comme', 'sans-serif'],
+      },
     },
   },
   plugins: [daisyui],
